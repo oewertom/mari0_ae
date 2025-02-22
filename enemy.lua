@@ -95,6 +95,7 @@ function enemy:init(x, y, t, a, properties)
 	
 	self.shot = false
 	self.outtable = {}
+	self.animationnumbers = animationnumbers
 	
 	self.speedx = 0
 	self.speedy = 0
